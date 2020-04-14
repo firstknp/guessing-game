@@ -7,5 +7,6 @@ Author: Kannipa Prayoonpruk 6110545431
 
 # Installation
 > Clone this repository 
-  ```git clone https://github.com/firstknp/guessing-game```
+  ```git clone https://github.com/firstknp/guessing-game``` 
+
 > ``` npm install ```
