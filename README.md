@@ -10,3 +10,8 @@ Author: Kannipa Prayoonpruk 6110545431
   ```git clone https://github.com/firstknp/guessing-game``` 
 
 > ``` npm install ```
+
+> ``` npm start ```
+
+> How to run
+  ``` node server.js ```
