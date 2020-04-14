@@ -55,9 +55,9 @@
         alphabet1: ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
         alphabet2: ["a", "s", "d", "f", "g", "h", "j", "k", "l"],
         alphabet3: ["z", "x", "c", "v", "b", "n", "m"],
-        words: ["awkward", "bagpipes", "react", "angular", "node", "ajax",
-            "javascript", "firebase", "heroku", "github", "gitlab", "mysql", "mongodb",
-            "express", "mongoose", "sequelize", "handlebars", "materialize", "redux", "mysql"
+        words: ["awkward", "bagpipes", "banjo", "bungler", "croquet", "dwarves",
+            "fishhook", "gypsy", "haiku", "jazzy", "jukebox", "kayak", "kiosk",
+            "numbskull", "oxygen", "pixel", "rhythmic", "unzip", "yacht", "zigzag"
         ],
         startChances: 7,
         curChances: 0,
