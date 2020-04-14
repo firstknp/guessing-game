@@ -1,0 +1,206 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: black;
+	text-align: left;
+}
+
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.row {
+	box-sizing: border-box;
+	margin: 30px auto 0 auto;
+	padding-bottom: 15px;
+	width: 100%;
+	clear: both;
+}
+
+section {
+	box-sizing: border-box;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+.main {
+	width: 65%;
+	margin: 60px auto;
+	overflow: hidden;
+}
+
+
+/*head content*/
+#text {
+	float: left;
+	width: 60%;
+}
+
+p {
+	box-sizing: border-box;
+	margin: 0 auto;
+	font-size: 30px;
+	color: white;
+}
+
+.num {
+	color: #AE81FF;
+}
+
+.string {
+	color: Gold;
+}
+
+.func {
+	color: SkyBlue;
+}
+
+.exprs {
+	color: #F92672;
+}
+
+.indent {
+	padding-left: 20px;
+}
+
+#hang {
+	float: right;
+}
+
+
+/*svg*/
+line {
+  stroke: white;
+  stroke-width: 4;
+}
+
+#body>line {
+	stroke-width: 2;
+}
+
+#xEyes>line {
+	stroke-width: 1;
+}
+
+#door1 {
+  transform-origin: 0% 100%;
+}
+
+#door2 {
+  transform-origin: 100% 100%;
+}
+
+/*button list*/
+.alphabet {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.alphabet>li {
+	box-sizing: border-box;
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+	margin: 0 7px 0 0;
+	padding-top: 4px;
+	font-size: 24px;
+	color: darkslategrey;
+	background-color: white;
+	transition: background-color .4s linear,  transform .4s linear, box-shadow .8s linear, opacity .4s;
+	border-radius: 8px;
+}
+
+.letter:hover {
+	background-color: salmon;
+}
+
+.shadow {
+  	box-shadow: 0 1px 0 #c9cfce, 
+	    0 2px 0 #bcc2c2, 
+	    0 3px 0 #afb6b6, 
+	    0 4px 0 #a4adac, 
+	    0 5px 0 #9fa8a7,
+	    0 6px 0 #99a3a2,
+	    0 7px 0 #97a1a0,
+	    0 8px 0 #949e9d;
+}
+
+.used {
+	opacity: .4;
+	transform: translateY(4px);
+  	box-shadow: 0 1px 0 #c9cfce, 
+	   			0 2px 0 #bcc2c2, 
+			    0 3px 0 #afb6b6, 
+			    0 4px 0 #a4adac;
+}
+
+ul>.used:hover {
+	background-color: white;
+	cursor: default;
+}
+
+/*guess list*/
+#guesses {
+	text-align: center;
+}
+
+
+#guesses>li {
+	list-style: none;
+	display: inline;
+	width: 35px;
+	margin: 0 10px 5px 0px;
+	font-size: 30px;
+	color: white;
+}
+
+/*misc*/
+#replay {
+	cursor: default;
+	transition: 1s ease;
+}
+
+span#replay:hover {
+    text-shadow: 0 0 10px white;
+	cursor: default;
+}
+
+.hide {
+	display: none;
+}
+
+@media screen and (max-width: 980px) {
+	.container {
+		width: 750px;
+	}
+
+	.main {
+		margin: 30px auto 0 auto;
+	}
+	
+	#hang {
+		float: none;
+		width: 45%;
+		margin: 30px auto 0 auto;
+	}
+
+	#text {
+		float: none;
+		width: 75%;
+		margin: 0 auto;
+	}
+	
+	.alphabet {
+		width: 75%;
+	}
+}
